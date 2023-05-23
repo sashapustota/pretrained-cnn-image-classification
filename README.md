@@ -137,3 +137,7 @@ lr-classifier
 | weighted avg | 0.778     | 0.756  | 0.751    | 1000.0  |
 
 ```
+
+![Accuracy Plot](https://github.com/sashapustota/pretrained-cnn-image-classification/blob/main/plots/accuracy.png)
+
+![Loss Plot](https://github.com/sashapustota/pretrained-cnn-image-classification/blob/main/plots/loss.png)
