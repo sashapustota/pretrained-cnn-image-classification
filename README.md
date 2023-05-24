@@ -55,6 +55,10 @@ cd pretrained-cnn-image-classification
 
 The ``run.sh`` script is used to automate the installation of project dependencies and configuration of the environment. By running this script, you ensure consistent setup across different environments and simplify the process of getting the project up and running.
 
+```bash
+bash run.sh
+```
+
 The script performs the following steps:
 
 1. Creates a virtual environment for the project
@@ -70,6 +74,8 @@ The ```main.py``` script perform the following steps:
 3. Load the model
 4. Fit the models
 5. Save a classification report, as well as plots of **loss** and **accuracy** metrics during the training of the model.
+
+
 
 ## Results
 
