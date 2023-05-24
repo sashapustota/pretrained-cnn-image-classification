@@ -91,7 +91,9 @@ The following parameters can be customized:
 To pass the parameters as arguments in the terminal, simply run the following lines in your terminal:
 
 ```bash
+source ./inceptionv3_classifier_venv/bin/activate
 python3 src/main.py -b <your value> -trs <your value> -vs <your value> -tes <your value> -e <your value>
+deactivate
 ```
 
 <!-- REPOSITORY STRUCTURE -->
