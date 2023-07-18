@@ -1,30 +1,3 @@
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <h1 align="center">Cultural Data Science 2023</h1> 
-  <h2 align="center">Assignment 3</h2> 
-  <h3 align="center">Visual Analytics</h3> 
-
-
-  <p align="center">
-    Aleksandrs Baskakovs
-  </p>
-</p>
-
-
-<!-- Assignment instructions -->
-## Assignment instructions
-
-In the previous assignments involving classification, we were performing a kind of simple feature extraction on images by making them greyscale and flattening them to a single vector. This vector of pixel values was then used as the input for some kind of classification model.
-
-For this assignment, we're going to be working with an interesting kind of cultural phenomenon - fashion. On UCloud, you have access to a dataset of *Indo fashion* taken from this [Kaggle dataset](https://www.kaggle.com/datasets/validmodel/indo-fashion-dataset). There is a paper which goes along with it on *arXiv.org*, which you can read [here](https://arxiv.org/abs/2104.02830).
-
-Your instructions for this assignment are short and simple:
-
-- You should write code which trains a classifier on this dataset using a *pretrained CNN like VGG16*
-- Save the training and validation history plots
-- Save the classification report
-
 <!-- ABOUT THE PROJECT -->
 ## About the project
 This repository contains a scripts that trains an image classifier on the dataset of indian fashion garments using a pretrained CNN ```InceptionV3``` from [Keras](https://keras.io/api/applications/inceptionv3/) built with ```tensorflow```.
